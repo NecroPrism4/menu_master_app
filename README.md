@@ -1,4 +1,4 @@
-<h1>Menu Master App</h1>
+<h1 align="center" style="color: #336699; font-size: 24px;">Menu Master App</h1>
 
 
 Welcome to Menu Master App - your gateway to a revolutionary dining experience!
@@ -32,10 +32,3 @@ Got questions or suggestions? Reach out to us at contact@menumasterapp.com.
 This project is licensed under the [MIT License](LICENSE).
 
 
-<style>
-  h1 {
-    color: #336699;
-    font-size: 24px;
-    text-align: center;
-  }
-</style>
