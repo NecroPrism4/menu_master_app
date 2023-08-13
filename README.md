@@ -30,5 +30,3 @@ Got questions or suggestions? Reach out to us at contact@menumasterapp.com.
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-
