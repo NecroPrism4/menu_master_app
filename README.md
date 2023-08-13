@@ -1,4 +1,4 @@
-<div><h1>Menu Master App</h1></div>
+<h1>Menu Master App</h1>
 
 
 Welcome to Menu Master App - your gateway to a revolutionary dining experience!
