@@ -1,26 +1,28 @@
 {
 	"expo": {
-		"name": "boileplate-expo-typescript",
-		"slug": "boileplate-expo-typescript",
+		"name": "Menu Master",
+		"slug": "menu_master",
 		"version": "1.0.0",
 		"orientation": "portrait",
 		"icon": "./assets/images/icon.png",
-		"scheme": "myapp",
+		"scheme": "demo",
 		"userInterfaceStyle": "automatic",
-		"splash": {
-			"image": "./assets/images/splash.png",
+		/* "splash": {
+			"image": "./assets/images/splash-screen.png",
 			"resizeMode": "contain",
 			"backgroundColor": "#ffffff"
-		},
+		}, */
 		"assetBundlePatterns": ["**/*"],
 		"ios": {
-			"supportsTablet": true
+			"supportsTablet": true,
+			"bundleIdentifier": "com.itspp.menu-master"
 		},
 		"android": {
 			"adaptiveIcon": {
 				"foregroundImage": "./assets/images/adaptive-icon.png",
 				"backgroundColor": "#ffffff"
-			}
+			},
+			"package": "com.itspp.menu_master"
 		},
 		"web": {
 			"bundler": "metro",

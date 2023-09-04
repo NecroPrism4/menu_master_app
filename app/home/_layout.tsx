@@ -1,10 +1,14 @@
-import { Slot } from "expo-router";
+import { Stack } from "expo-router";
+import { View } from "react-native";
 
 export default function HomeLayout() {
 	return (
-		<>
-			<Slot></Slot>
-		</>
+		<Stack
+			screenOptions={{
+				title: "My App",
+				headerBackground: () => <View style={{ backgroundColor: "red" }} />,
+			}}
+		/>
 	);
 }
 
