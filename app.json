@@ -7,11 +7,10 @@
 		"icon": "./assets/images/icon.png",
 		"scheme": "demo",
 		"userInterfaceStyle": "automatic",
-		/* "splash": {
-			"image": "./assets/images/splash-screen.png",
+		"splash": {
 			"resizeMode": "contain",
 			"backgroundColor": "#ffffff"
-		}, */
+		},
 		"assetBundlePatterns": ["**/*"],
 		"ios": {
 			"supportsTablet": true,

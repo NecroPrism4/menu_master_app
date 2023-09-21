@@ -1,4 +1,4 @@
-FROM node:18.16-bullseye-slim
+FROM node:lts-bullseye-slim
 
 RUN mkdir /app
 WORKDIR /app

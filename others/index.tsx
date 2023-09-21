@@ -1,7 +1,6 @@
 import React, { useCallback, useEffect, useState } from "react";
 import { Text, View, StyleSheet, Animated } from "react-native";
 import Entypo from "@expo/vector-icons/Entypo";
-import { Stack } from "expo-router";
 import * as Font from "expo-font";
 import AnimatedSplash from "react-native-animated-splash-screen";
 import Login from "../src/screens/login/Login";
@@ -21,7 +20,7 @@ const App = () => {
 				await Font.loadAsync(Entypo.font);
 				// Artificially delay for two seconds to simulate a slow loading
 				// experience. Please remove this if you copy and paste the code!
-				await new Promise((resolve) => setTimeout(resolve, 10000));
+				await new Promise((resolve) => setTimeout(resolve, 2000));
 			} catch (e) {
 				console.warn(e);
 			} finally {
@@ -58,11 +57,7 @@ const App = () => {
 			logoHeight={150}
 			logoWidth={150}
 		>
-			<Stack
-				screenOptions={{
-					headerShown: false,
-				}}
-			/>
+			{User ? <Login /> : <Text>Logged In</Text>}
 		</AnimatedSplash>
 	);
 };
